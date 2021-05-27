@@ -12,7 +12,7 @@ import (
 	"os/exec"
 	"strings"
 
-	_ "github.com/prajwalpatil2505/nzgo_prajwal"
+	_ "github.com/prajwalpatil2505/nzgo_prajwal/v11"
 )
 
 // OID represent a postgres Object Identifier Type.
