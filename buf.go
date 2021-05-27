@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/IBM/nzgo/oid"
+	"github.com/prajwalpatil2505/nzgo_prajwal/oid"
 )
 
 type readBuf []byte

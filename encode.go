@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/IBM/nzgo/oid"
+	"github.com/prajwalpatil2505/nzgo_prajwal/oid"
 )
 
 func binaryEncode(parameterStatus *parameterStatus, x interface{}) []byte {

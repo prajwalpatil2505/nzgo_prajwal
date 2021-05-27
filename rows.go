@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/IBM/nzgo/oid"
+	"github.com/prajwalpatil2505/nzgo_prajwal/oid"
 )
 
 const headerSize = 4
