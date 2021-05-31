@@ -13,13 +13,13 @@ import (
 )
 
 const (
-	conninfo = "user= " +
-		"port= " +
-		"password= " +
-		"dbname= " +
-		"host= " +
-		"securityLevel= " +
-		"sslmode= "
+	conninfo = "user= 'admin'" +
+		"port= '5480'" +
+		"password= 'password'" +
+		"dbname= 'test'" +
+		"host= 'localhost'" +
+		"securityLevel= 'none'" +
+		"sslmode= 'disable'"
 )
 
 func openTestConnConninfo(conninfostr string) (*sql.DB, error) {
