@@ -2,14 +2,3 @@ language: go
 
 go:
   - 1.14.x
-
-env:
-  global:
-      - PGHOST=127.0.0.1
-  matrix:
-      - PGVERSION=10
-  
-  before_script:
-    - createdb test
-
-script: go get github.com/prajwalpatil2505/nzgo_prajwal && go build && go test ./...
