@@ -17,7 +17,7 @@ const (
 		"port= '5480'" +
 		"password= 'password'" +
 		"dbname= 'test'" +
-		"host= 'localhost'" +
+		"host= '9.30.193.39'" +
 		"securityLevel= 'none'" +
 		"sslmode= 'disable'"
 )
