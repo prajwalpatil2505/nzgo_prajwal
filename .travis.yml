@@ -6,4 +6,4 @@ go:
 env:
   - GO111MODULE=off
 
-script: go get github.com/prajwalpatil2505/nzgo_prajwal && cd $GOPATH/src/github.com/prajwalpatil2505/nzgo_prajwal && go build && go test
+script: go get github.com/prajwalpatil2505/nzgo_prajwal && cd $GOPATH/src/github.com/prajwalpatil2505/nzgo_prajwal && go build
